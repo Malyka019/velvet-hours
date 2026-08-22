@@ -74,6 +74,11 @@ export default function Home() {
       <div className="safe-inset relative z-30 flex w-full justify-center">
         <Player />
       </div>
+
+      {/* 5. footer attribution */}
+      <div className="absolute bottom-4 right-4 z-30 select-none text-[11px] sm:text-[12px] font-mono text-paper/40 tracking-wider">
+        made by lyka
+      </div>
     </main>
   );
 }
