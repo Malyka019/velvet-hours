@@ -1,6 +1,6 @@
-# Moonlit
+# Moonlit & Vinylvibes
 
-A single-page nostalgia site for the "Moonlit" playlist, built with Next.js 15 (App Router), TypeScript, and Tailwind CSS v4.
+A single-page nostalgia site for the "Moonlit" and "Vinylvibes" playlist, built with Next.js 15 (App Router), TypeScript, and Tailwind CSS v4.
 
 ## Run it
 
