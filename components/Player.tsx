@@ -160,6 +160,12 @@ export default function Player() {
     setProgress(0);
     
     controllerRef.current.loadUri(`spotify:track:${nextTrack.id}`);
+    
+    setTimeout(() => {
+      if (controllerRef.current) {
+        controllerRef.current.play();
+      }
+    }, 200);
   };
 
   const handlePrev = () => {
@@ -173,6 +179,12 @@ export default function Player() {
     setProgress(0);
     
     controllerRef.current.loadUri(`spotify:track:${prevTrack.id}`);
+
+    setTimeout(() => {
+      if (controllerRef.current) {
+        controllerRef.current.play();
+      }
+    }, 200);
   };
 
   const handleSeekChange = (e: React.ChangeEvent<HTMLInputElement>) => {
